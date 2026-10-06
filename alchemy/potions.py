@@ -1,5 +1,5 @@
 import elements
-from alchemy.elements import *
+from alchemy.elements import create_earth, create_air
 
 def healing_potion() -> str:
     return (f"Healing potion brewed with "
